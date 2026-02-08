@@ -1,5 +1,5 @@
 // Typing effect
-const text = "Dear Mummy, You are my world, my strength, and my happiness. Thank you for everything. I love you forever 💕";
+const text = "Dear Amma, You are my world, my strength, and my happiness. Thank you for everything. I love you forever 💕";
 let i=0;
 function typing(){ if(i<text.length){ document.getElementById("message").innerHTML+=text.charAt(i); i++; setTimeout(typing,40); } }
 typing();
